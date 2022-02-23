@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CGeographicLib",
+        "repositoryURL": "https://github.com/firecrestHorizon/CGeographicLib.git",
+        "state": {
+          "branch": null,
+          "revision": "dc856319a9e6b5ce38c8a5b9bead85f0152dfa3a",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
