@@ -4,22 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyGeographicLib",
-    platforms: [.macOS(.v11)],
-    products: [
-        .library(
-            name: "SwiftyGeographicLib",
-            targets: ["SwiftyGeographicLib"]),
-    ],
-    dependencies: [
-      .package(name: "CGeographicLib", url: "https://github.com/firecrestHorizon/CGeographicLib.git", from: "0.1.0")
-    ],
-    targets: [
-        .target(
-            name: "SwiftyGeographicLib",
-            dependencies: ["CGeographicLib"]),
-        .testTarget(
-            name: "SwiftyGeographicLibTests",
-            dependencies: ["SwiftyGeographicLib"]),
-    ]
+  name: "SwiftyGeographicLib",
+  platforms: [.macOS(.v11)],
+  products: [
+    .library(
+      name: "SwiftyGeographicLib",
+      targets: ["SwiftyGeographicLib"]),
+  ],
+  dependencies: [
+    .package(name: "CGeographicLib", url: "https://github.com/firecrestHorizon/CGeographicLib.git", from: "0.1.0"),
+    //.package(name: "CGeographicLib", url: "/Users/kieran/codeProjects/HorizonGTS/CGeographicLib", branch: "main")
+  ],
+  targets: [
+    .target(
+      name: "SwiftyGeographicLib",
+      dependencies: ["CGeographicLib"]),
+    .testTarget(
+      name: "SwiftyGeographicLibTests",
+      dependencies: ["SwiftyGeographicLib"]),
+  ]
 )
