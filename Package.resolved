@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "CGeographicLib",
-        "repositoryURL": "https://github.com/firecrestHorizon/CGeographicLib.git",
+        "repositoryURL": "/Users/kieran/codeProjects/HorizonGTS/CGeographicLib",
         "state": {
-          "branch": null,
-          "revision": "80b702f8be4d63825abbaf5081109d2223d48e02",
-          "version": "0.1.1"
+          "branch": "main",
+          "revision": "f8de85679d2a6889e4d398d1a1489f5447eb25cd",
+          "version": null
         }
       }
     ]
