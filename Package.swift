@@ -12,8 +12,8 @@ let package = Package(
       targets: ["SwiftyGeographicLib"]),
   ],
   dependencies: [
-    //.package(name: "CGeographicLib", url: "https://github.com/firecrestHorizon/CGeographicLib.git", from: "0.1.0"),
-    .package(name: "CGeographicLib", url: "/Users/kieran/codeProjects/HorizonGTS/CGeographicLib", branch: "main")
+    .package(name: "CGeographicLib", url: "https://github.com/firecrestHorizon/CGeographicLib.git", branch: "main")
+    //.package(name: "CGeographicLib", url: "/Users/kieran/codeProjects/HorizonGTS/CGeographicLib", branch: "main")
   ],
   targets: [
     .target(
