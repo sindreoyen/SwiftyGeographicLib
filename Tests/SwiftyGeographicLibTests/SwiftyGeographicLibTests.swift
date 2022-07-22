@@ -58,9 +58,9 @@ final class SwiftyGeographicLibGnomonicTests: XCTestCase {
   func testGnomonicReverse() throws {
     let origin = (lat: 48.0 + 50.0/60.0, lon: 2.0 + 20.0/60.0)  // Paris
     let point  = (x: -38e3, y: 230e3)  // Calais
-    let fwd = SwiftyGeographicLib.reverse(origin: origin, point: point, ellipsoid: WGS84)
+    let rev = SwiftyGeographicLib.reverse(origin: origin, point: point, ellipsoid: WGS84)
     
-    XCTAssertEqual(fwd.lat, 50.89904, accuracy: 1e-5)
-    XCTAssertEqual(fwd.lon, 1.79353, accuracy: 1e-5)
+    XCTAssertEqual(rev.lat, 50.89904, accuracy: 1e-5)
+    XCTAssertEqual(rev.lon, 1.79353, accuracy: 1e-5)
   }
 }

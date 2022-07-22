@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
   name: "SwiftyGeographicLib",
-  platforms: [.macOS(.v11)],
+  platforms: [.macOS(.v12)],
   products: [
     .library(
       name: "SwiftyGeographicLib",
@@ -13,7 +13,6 @@ let package = Package(
   ],
   dependencies: [
     .package(name: "CGeographicLib", url: "https://github.com/firecrestHorizon/CGeographicLib.git", branch: "main")
-    //.package(name: "CGeographicLib", url: "/Users/kieran/codeProjects/HorizonGTS/CGeographicLib", branch: "main")
   ],
   targets: [
     .target(
