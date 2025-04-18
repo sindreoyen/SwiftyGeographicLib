@@ -99,7 +99,7 @@ let lon = rev.lon                 // lon = 1.79353
 
 ``` swift
 dependencies: [
-        .package(url: "https://github.com/firecrestHorizon/SwiftyGeographicLib.git", branch: "main"),
+        .package(url: "https://github.com/sindreoyen/SwiftyGeographicLib.git", branch: "main"),
     ],
 ```
 
